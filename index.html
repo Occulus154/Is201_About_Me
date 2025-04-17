@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang=en xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="AboutMecss.css">
+<title>Page Title</title>
+  <script>
+    window.onload = function() {
+      window.scrollTo(0, 0);
+    }
+  </script>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'red')"id="defaultOpen" >Home</button>
+<button class="tablink" onclick="openPage('Hobbies', this, 'red')">Hobbies</button>
+<button class="tablink" onclick="openPage('Contact', this, 'red')">Interests</button>
+<button class="tablink" onclick="openPage('About', this, 'red')">Achievements</button>
+<button class="tablink" onclick="openPage('Resume', this, 'red')">Resume</button>
+
+
+
+<div id="Home" class="tabcontent">
+  <h1>Home</h1>
+  <h2><script>
+document.write((new Date().getHours() < 12) ? "Good morning!" : "Good afternoon!")
+</script></h2>
+  <p>
+    This page is dedicated to some information about me!
+
+  </p>
+  <p>
+    Throughout my life there have been many things that interest me and some of those things I have been able
+    to turn into hobbies and others still are just interests. along the way, I have had many achievements which are
+    detailed in their own tab.
+  </p>
+  <br>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/KPP4Cfupzhs"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+<br><br><p><b>Here is a interactive graph for step tracking!</b></p>
+  <iframe class="tableau-embed"
+          src="https://public.tableau.com/views/TableauConferenceStepTracker2025/TC25StepTracker?:language=en-US&:embed=y&:display_count=yes&:showVizHome=no">
+  </iframe>
+  <br><br><br>
+</div>
+
+<div id="Hobbies" class="tabcontent ">
+  <h1>Hobbies</h1><br>
+  <p>There have been several thing that I enjoy as my hobbies and those include things like:
+    <ol>
+  <li><a href="#comp" style="color:#d6d6d6">Building computers</a></li>
+  <li><a href="#car" style="color:#d6d6d6">Riding motorcycles</a></li>
+  <li><a href="#friends" style="color:#d6d6d6">Doing things with friends</a></li>
+</ol>
+
+    <div class ='div-1'>
+    <br><br><br><h3 id="comp"><b>Building Computers</b></h3>
+    <p>Throughout the years I have built several computers which have allowed me to connect with
+    people across the globe. Part of the enjoyment of computer for me is to find out how they go together.
+    I enjoy calling building computer adult legos because the two are fairly similar in how they are put together
+      and if you mess up then its alot more expensive.</p>
+  </div>
+    <br>
+    <div class ="div-2">
+     <img src="../images/Computer.JPG" alt="Computer" style="width: 100%" >
+    </div>
+  <div class ="div-1">
+    <br><br><h3 id="car"><b>Riding motorcycles and driving cars</b></h3>
+    <p>Another thing that I love doing is operating pretty much anything with a motor. This has extended
+      to me loving cars and motorcycles and as a result, I have been able to find friends pretty much everywhere I go.</p>
+    </div>
+    <br><br>
+  <div class ="div-2">
+    <img src="../images/motorcyclesuit.jpeg" alt="Motorcycle" style="width: 50%" >
+    </div>
+  <div class ="div-1">
+    <br><br><h3 id="friends"><b>And having fun with friends</b></h3>
+    <p>The last thing here although by far not the last thing I enjoy is having fun and causing chaos with my friends.
+    Most of my friends love at least one of the things that I love doing and by having that common ground it has created
+    Brothers and an environment of chaos.</p>
+  </div>
+    <br><br>
+  <div class ="div-2">
+    <img src="../images/titanic.jpg" alt="Friends" style="width:35%; padding-bottom: 20px;">
+  </div>
+</div>
+
+<div id="Contact" class="tabcontent body" >
+
+  <h1>Interests</h1>
+  <ol>
+    <li id="mech">Mechanical
+    <ul>
+      <li>Cars</li>
+      <li>Motorcycles</li>
+      <li>Dirt Bikes</li>
+      <li>Go Karts</li>
+    </ul>
+    </li>
+    <li>Electronics
+    <ul>
+      <li>Building Desktops. I have built several through my time and always try to challenge myself</li>
+      <li>Taking apart old systems to see how they function and if I can use anything</li>
+      <li>Network structure such as Wake on Lan</li>
+      <li>Automation of continuous tasks</li>
+    </ul>
+    </li>
+    <li id="animal">Animals
+    <ul>
+      <li>Bunnies, I like seeing how fluffy they are and what their personality is like</li>
+      <li>Cats. Although I am allergic I do enjoy spending time with cats</li>
+      <li>Outdoor creatures. I enjoy seeing creatures in nature and how they respond to safe human interaction</li>
+    </ul>
+    </li>
+    <li>random Topics I have interests in:
+    <ul>
+      <li>Radioactivity</li>
+      <li>Processes for random tasks such as vehicle manufacturing plants</li>
+      <li>Laws that will allow me to do fun things or to learn the result of doing something I shouldn't</li>
+    </ul>
+    </li>
+
+  </ol>
+</div>
+
+<div id="About" class="tabcontent">
+  <h1>Achievements</h1>
+  <p>There have been many things that I have done in life but the biggest one that comes to mind is that of my Eagle
+  Project. <br><br><img src="../images/Eagle%20Project.JPG" style="width: 30%"><br><br> For my Eagle Project I made 50 Fleece blanket kits and paired them with
+  stuffed animals. Those then were brought to the foster care system that was incharge of my state. It was not a easy task
+  even though we knew exactly what to do. I have been making these blankets since I was a little kid and could make them in my sleep.
+  The psychology behind why we included the stuffed animals was interesting to learn. There have been studies that have
+  said that if a child is given something to care for such as a stuffed animal or toy it helps them process and have a better
+  outlook towards the whole ordeal. This is because it gives them a way to process some of the hard emotions that come along with a situation like this.<p>
+<br><br><br><br><br><br>
+  <!-- Add your game canvas here -->
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+
+    <!-- Start Button to trigger the game -->
+    <button id="startGameBtn">Start Game</button>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="snake.js"></script>
+</div>
+
+<div id="Resume" class="tabcontent">
+  <h1>Resume</h1>
+
+    <div class="common leftmenu">
+
+        </div>
+    <div class="common mainbody">
+        <h3 class="justify"><b> Mission Statement:</b></h3>
+
+        <p>My goal is to become an accountant through BYU's accounting program. It is not an easy path but it is one that I want to trek.
+        On top of having to be good at math and problem solving there is a human element to it as well.</p>
+
+        <ol>
+            <li id="edu" class="bold underline" >Education
+                <ul>
+                    <li>Central Valley High School</li>
+
+                </ul>
+            </li>
+
+            <li id="exp" class="bold underline">Expirience
+                <ul>
+                    <li>Lowes Order Fulfillment Associate</li>
+                    <li>Kohls / Online sales Associate / Customer Service Representative</li>
+                    <li>Boy Scouts of America / Eagle Scout</li>
+                </ul>
+
+            </li>
+            <li id="SKI" class="bold underline">Skills
+                <ul>
+                    <li>Customer Service</li>
+                    <li>Problem solving both with and without aid</li>
+                    <li>CompTIA IT Fundamentals+ Certification </li>
+                    <li>Cisco Introduction to Iot</li>
+                    <li>Excel</li>
+                    <li>HTML, CSS, Python</li>
+                </ul>
+
+            </li>
+        </ol>
+    </div>
+    <div class="common rightmenu">
+        <h4>Awards</h4>
+        Eagle Scout<br>
+        Wolf Den Chief<br>
+
+
+    </div>
+    <div class="common footer">
+
+    </div>
+</div>
+
+<script src="AboutMeJava.js" type="text/javascript"></script>
+</body>
+</html>
+
+<!--
+https://youtu.be/KPP4Cfupzhs?si=cjZXs3DLItSp6p1w
+<img src="carmotorcycle.jpg" alt="carbike">
+<img src="Computer.JPG" alt="Computer">
+<img src="Eagle%20Project.JPG" alt="Project">
+<img src="motorcycle.jpg" alt="Motorcycle">
+-->
+
+<!--<p>Overall this page is quite boring in comparison. I have several things that are of interest to me ranging from
+  random knowledge to things that tend to be useful.<br> One of the more random interests would be that I occasionally will look
+  up local laws to answer random questions such as for utah if the speedlimit is under 45, or the road is an off-ramp,<br> then motorcycles can filter to the front of
+  a stoplight at 10mph or less.One of the more useful interests that I have is that I want to get trained on all sorts of
+  industrial equipment.<br> I worked at lowes over this last summer and within two weeks of starting I was certified on all the
+  heavy machinery. <p>-->

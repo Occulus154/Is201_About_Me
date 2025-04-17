@@ -1,0 +1,179 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+    padding: 0;
+    background: #0e6994;
+  text-align: center;
+  font-family:"Times New Roman", Times, serif;
+    color: white;
+}
+p{
+    margin-left:20%;
+    margin-right:20%;
+    line-height: 1.6;
+}
+
+.bold{    font-weight: bold;}
+.underline{    text-decoration: underline;}
+.justify{    text-align: justify;}
+h1 {
+    margin-bottom: 20px;
+    padding-top:20px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+ ol {
+    list-style-position: inside;
+    margin: 0 auto;
+    width: fit-content;
+    align-content: center;
+}
+ul li, ol li {
+    text-align: left;
+    margin: 5px;
+}
+.tableau-embed {
+  width: 50%;
+  height: 500px;
+  margin: 40px auto;
+  border: none;
+  display: block;
+}
+
+#gameSection {
+    margin-top: 20px;
+    display: none; /* Initially hide the game section */
+}
+
+canvas {
+    border: 1px solid black;
+    background-color: lightblue;
+    display: block; /* Ensures the canvas is treated as a block element */
+    margin: 0 auto; /* Center the canvas */
+}
+/* Parent container that allows side-by-side layout */
+.flex-container {
+  display: flex;
+  justify-content: center; /* center the pair in the page */
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%; /* keeps the layout from stretching too wide */
+    padding: 20px 0;
+}
+
+.div-1, .div-2, .div-3 {
+  flex: 1;
+  max-width: 45%;     /* limits the width of each box */
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.div-1 {
+  left: 5%; /* move slightly to the left */
+}
+
+.div-2 {
+  left: 50%; /* move slightly to the right */
+}
+
+/* Div 3 - For anything else, like a footer, call to action, etc. */
+.div-3 {
+ left: 20%;
+}
+
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  min-height: 100vh;
+  height: 120%;
+  box-sizing: border-box;
+}
+
+#Home,#Hobbies,#Contact,#About,#Resume{
+    background-color: #0e6994;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Hidden class to manage visibility */
+.hidden {
+    display: none;
+}
+.common{
+    /*background-color: #cccccc;*/
+    border: 2px solid white;
+    position: absolute;
+}
+.header {
+    top:5px;
+    left:5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+    border-bottom: solid 1px #555555;
+
+}
+.leftmenu{
+    padding-top:75px;
+    top:114px;
+    left: 5px;
+    width:100px;
+    bottom:39px;
+    z-index:1;
+    border-right:solid 1px #555555;
+}
+.rightmenu{
+    top:114px;
+    right: 5px;
+    width:100px;
+    bottom:39px;
+    border-left:solid 1px #555555;
+    padding-left:5px;
+}
+.mainbody{
+    top:114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+    z-index:2;
+    position: fixed;
+}
+.subheader {
+float:right;
+}
